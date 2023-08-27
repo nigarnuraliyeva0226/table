@@ -1,0 +1,179 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    height: 900px;
+}
+table {
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    border-collapse: collapse;
+ 
+}
+.table1 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+    color: white;
+    background-color: blueviolet;
+}
+.table1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%; 
+}
+
+.table1:hover::before{
+    margin-left: 80px;
+    content: "TIN: 7736207543";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: auto;
+    color: black;
+    transition: 0s;
+}
+.table2 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+    color: white;
+    background-color: blueviolet;
+}
+.table2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%; 
+}
+
+.table2:hover::before{
+    margin-left: 80px;
+    content: "TIN: 7736207543";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: auto;
+    color: black;
+    transition: 0s;
+}
+.table3 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+    color: rgb(23, 23, 23);
+    background-color: gainsboro;
+  
+}
+.table3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%; 
+}
+
+.table3:hover::before{
+    margin-left: 80px;
+    content: "TIN: 7736207543";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: auto;
+    color: black;
+    transition: 0s;
+}
+.table4 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+    color: rgb(23, 23, 23);
+    background-color:mediumvioletred;
+}
+.table4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%; 
+}
+
+.table4:hover::before{
+    margin-left: 80px;
+    content: "TIN: 7736207543";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: auto;
+    color: black;
+    transition: 0s;
+}
+.table5 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+    color: rgb(23, 23, 23);
+    background-color: rgb(244, 242, 135);
+}
+.table5::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%; 
+}
+
+.table5:hover::before{
+    margin-left: 80px;
+    content: "TIN: 7736207543";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: auto;
+    color: black;
+    transition: 0s;
+}
+.color1 {
+    transition:  1s;
+    position: relative;
+    width: max-content;
+} 
+
+.color1:hover::before{
+    /* margin-left: 80px; */
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    /* margin-top: auto; */
+    /* transition: 0s; */
+}
